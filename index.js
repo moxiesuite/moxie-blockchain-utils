@@ -4,7 +4,7 @@ var Blockchain = {
     var params = [blockNumber, true];
     provider.sendAsync({
       jsonrpc: '2.0',
-      method: 'eth_getBlockByNumber',
+      method: 'vap_getBlockByNumber',
       params: params,
       id: Date.now(),
     }, callback)
@@ -14,7 +14,7 @@ var Blockchain = {
     var params = [blockHash, true];
     provider.sendAsync({
       jsonrpc: '2.0',
-      method: 'eth_getBlockByHash',
+      method: 'vap_getBlockByHash',
       params: params,
       id: Date.now(),
     }, callback)

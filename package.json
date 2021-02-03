@@ -1,5 +1,6 @@
 {
-  "name": "truffle-blockchain-utils",
+  "name": "moxie-blockchain-utils",
+  "namespace": "moxiesuite",
   "version": "0.0.4",
   "description": "Utilities for identifying and managing blockchains",
   "main": "index.js",
@@ -8,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-blockchain-utils.git"
+    "url": "git+https://github.com/moxiesuite/moxie-blockchain-utils.git"
   },
   "keywords": [
-    "ethereum",
-    "truffle",
+    "vapory",
+    "moxie",
     "blockchain"
   ],
   "author": "Tim Coulter <tim.coulter@consensys.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-blockchain-utils/issues"
+    "url": "https://github.com/moxiesuite/moxie-blockchain-utils/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-blockchain-utils#readme",
+  "homepage": "https://github.com/moxiesuite/moxie-blockchain-utils#readme",
   "dependencies": {}
 }
